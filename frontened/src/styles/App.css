@@ -1,0 +1,32 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #004aad;
+  padding: 10px;
+  color: white;
+}
+
+.nav-links button {
+  margin: 5px;
+  padding: 8px 12px;
+  background-color: white;
+  color: #004aad;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.nav-links button:hover {
+  background-color: #002c7a;
+  color: white;
+}
+
+.content {
+  margin-top: 20px;
+}

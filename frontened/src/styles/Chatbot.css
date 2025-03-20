@@ -1,0 +1,15 @@
+.chat-container {
+  width: 50%;
+  margin: auto;
+}
+.chat-box {
+  border: 1px solid black;
+  height: 300px;
+  overflow-y: auto;
+}
+.message.user {
+  color: blue;
+}
+.message.assistant {
+  color: green;
+}
